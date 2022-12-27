@@ -8,7 +8,7 @@
 System.Console.WriteLine("Введите 5-значное число");
 string num = (Console.ReadLine()!);
 
-if (num.Length = 5)
+if (num.Length == 5)
 {
 
 if (num[0] == num[4] && num[1] == num[3])
