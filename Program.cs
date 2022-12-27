@@ -20,3 +20,15 @@
 // выдаёт таблицу кубов чисел от 1 до N.
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
+
+Console.WriteLine("Введите число: ");
+int number = int.Parse(Console.ReadLine()!);
+// System.Console.WriteLine(number);
+System.Console.WriteLine("Результат: ");
+int i = 1;
+while (i <= number)
+{
+    int result = Convert.ToInt32(Math.Pow(i, 3));
+    i++;
+    Console.Write(result + " ");
+}
